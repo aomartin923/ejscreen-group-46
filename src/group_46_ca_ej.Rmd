@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(janitor)
 library(here)
+library(hexbin)
 ```
 
 ```{r}
@@ -18,7 +19,12 @@ ces <-read_csv(here("data","ces3demographics.csv")) %>%
   clean_names()
 ```
 
-```{r, Ali }
+
+```{r }
+
+ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) + 
+  geom_hex() +
+  labs(x = "Percent of White Population", y = "CalEnviroScreen 3.0 Score", title = "Relationship between white population and CalEnviroScreen 3.0 score in CA" )
 
 ```
 
