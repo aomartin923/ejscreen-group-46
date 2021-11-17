@@ -33,3 +33,7 @@ ggplot(data = ces,
 ```
 
 **Figure 1:** The figure above shows the relationship between the percent of white population and pollution burden, which is measured by the aggregate CalEnviroScreen 3.0 score, which  in California. 
+
+Figure 1 indicates that census tracts with a ***smaller*** percentage of white residents generally have higher CalEnviroScreen 3.0 scores, meaning these communities bear a higher pollution burden than the census tracts with a larger percentage of white residents.  
+
+**Data Source:** California Environmental Justice Alliance. 2018. CalEnviroScreen 3.0: A Tool for Advancing Environmental Justice. https://caleja.org/wp-content/uploads/2015/09/CES3.0-5.pdf (Accessed 11/17/2021). For more background and CalEnviroScreen 3.0 maps, visit: https://oehha.ca.gov/calenviroscreen/report/calenviroscreen-30.
