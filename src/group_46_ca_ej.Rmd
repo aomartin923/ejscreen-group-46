@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 
 library(tidyverse)
 library(janitor)
@@ -32,3 +32,4 @@ ggplot(data = ces,
   theme_minimal()
 ```
 
+**Figure 1:** The figure above shows the relationship between the percent of white population and pollution burden, which is measured by the aggregate CalEnviroScreen 3.0 score, which  in California. 
